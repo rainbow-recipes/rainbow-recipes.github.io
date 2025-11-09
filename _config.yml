@@ -1,3 +1,5 @@
 title: Rainbow Recipes
-description: 
 theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  repository_url: https://github.com/rainbow-recipes/rainbow-recipes.github.io
