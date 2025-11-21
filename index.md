@@ -171,6 +171,12 @@ After implementing the basic functionality, here are ideas for more advanced fea
   <img src="/images/m1-add-recipe-page.png" />
 </div>
 
+#### Admin Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-admin-page.png" />
+</div>
+
 ### Milestone 1 Project Page
 [Milestone 1](https://github.com/orgs/rainbow-recipes/projects/1)
 
