@@ -3,6 +3,9 @@
 ## Team Contract
 [Rainbow Recipes Team Contract](https://docs.google.com/document/d/1ii8JpiN7N2ggNPNK966_UyXlzq3T6nzf9zWfuArA9YU/edit?usp=sharing)
 
+## Deployment
+[Rainbow Recipes](rainbow-recipes.vercel.app)
+
 ## Goals for the project
 *Problem*: Many college students have limited kitchen resources, limited cooking skills, limited time, limited access to grocery stores, and no access to creative recipes that respect these constraints. As a result, college students spend money to eat out, or eat non-healthy foods at fast food places or through vending machines.
 
@@ -80,6 +83,38 @@ Logged in users will be able to add their own recipes through a form. They will 
   <img src="/images/add-recipes-page.png" />
 </div>
 
+### Risks and Mitigations
+
+**Poor Communication**
+
+Meeting twice a week with team members to discuss the project and progress of tasks. Discussing any concerns, disagreements, or new ideas.
+
+**Scope Creep**
+
+Document changes in implementation and document possible future expectations. Address this to relevant parties to be able to adjust deadlines and other factors accordingly.
+
+**Unclear Requirements**
+
+Make sure to ask clients for clear instructions and examples of what they want. Make sure the clients understand what is possible under their time constraints and budget.
+
+**Poor Project Planning**
+
+Document everything you’re planning, split it into small, manageable parts, and use milestones.
+
+**Technical Complexity**
+
+Ensure all team members have access to the software and hardware needed to build the project.
+
+**Inadequate Team Skills**
+
+Survey technical skill sets beforehand; address any challenges that cannot be overcome even after personal time dedicated to problem-solving.
+
+**Resource Constraints**
+
+Have a larger buffer in areas of high risk and high importance. Document any rising risks and maintain flexibility with resource reallocation.
+
+
+
 ### Use case ideas
 * New user goes to landing page, logs in, gets home page, sets up profile. (How do they learn how system works?)
 * Admin goes to landing page, logs in, gets home page, edits site.
@@ -93,3 +128,51 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Ratings and review system for vendors.
 * Notification system for vendors when new items are posted in recipes so they can update their listing to indicate whether they stock it or not.
 * Notification system when price for a recipe drops substantially (i.e. a vendor puts an item on sale.)
+
+### Milestone 1 Updated Screenshots
+
+##### Guest Landing Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-landing-page.png" />
+</div>
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-landing-page2.png" />
+</div>
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-landing-page3.png" />
+</div>
+
+##### User Landing Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-user-landing-page.png" />
+</div>
+
+##### Sign Up & Sign In Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-signup-page.png" />
+</div>
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-signin-page.png" />
+</div>
+
+##### Recipes Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/all-recipes-page.png" />
+</div>
+
+##### Add Recipe Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-add-recipe-page.png" />
+</div>
+
+### Milestone 1 Project Page
+[Milestone 1](https://github.com/orgs/rainbow-recipes/projects/1)
+
+### Milestone 2 Project Page
+[Milestone 2](https://github.com/orgs/rainbow-recipes/projects/6)
