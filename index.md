@@ -136,12 +136,6 @@ After implementing the basic functionality, here are ideas for more advanced fea
 <div style="box-shadow: 0px 0px 20px gray;">
   <img src="/images/m1-landing-page.png" />
 </div>
-<div style="box-shadow: 0px 0px 20px gray;">
-  <img src="/images/m1-landing-page2.png" />
-</div>
-<div style="box-shadow: 0px 0px 20px gray;">
-  <img src="/images/m1-landing-page3.png" />
-</div>
 
 ##### User Landing Page
 
@@ -162,13 +156,31 @@ After implementing the basic functionality, here are ideas for more advanced fea
 ##### Recipes Page
 
 <div style="box-shadow: 0px 0px 20px gray;">
-  <img src="/images/all-recipes-page.png" />
+  <img src="/images/m1-all-recipes-page.png" />
 </div>
 
 ##### Add Recipe Page
 
 <div style="box-shadow: 0px 0px 20px gray;">
   <img src="/images/m1-add-recipe-page.png" />
+</div>
+
+##### User's Recipe Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-users-recipes-page.png" />
+</div>
+
+##### User's Favorites Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-favorites-page.png" />
+</div>
+
+#### Vendor's Account Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m1-mystore-page.png" />
 </div>
 
 #### Admin Page
