@@ -1,10 +1,30 @@
 # Rainbow Recipes
 
+## Table of Contents
+- [GitHub Organization](#GitHub)
+- [Team Contract](#team-contract)
+- [Vercel Deployment](#deployment)
+- [Overview/Goals](#goals-for-the-project)
+- [Mockup Pages](#mockup-page-ideas)
+- [Use Case Ideas](#use-case-ideas)
+- [Beyond the Basics](#beyond-the-basics)
+- [Risk and Mitigations](#risks-and-mitigations)
+- [User Guide](#user-guide)
+- [Developer Guide](#developer-guide)
+- [Milestone 1](#milestone-1)
+- [Milestone 2](#milestone-2)
+
+
+## Rainbow Recipes GitHub
+[Rainbow Recipes](https://github.com/rainbow-recipes)
+
 ## Team Contract
 [Rainbow Recipes Team Contract](https://docs.google.com/document/d/1ii8JpiN7N2ggNPNK966_UyXlzq3T6nzf9zWfuArA9YU/edit?usp=sharing)
 
 ## Deployment
 [Rainbow Recipes](https://rainbow-recipes.vercel.app/)
+
+Integration Badge: [![ci-rainbow-recipes](https://github.com/rainbow-recipes/rainbow-recipes/actions/workflows/ci.yml/badge.svg)](https://github.com/rainbow-recipes/rainbow-recipes/actions/workflows/ci.yml)
 
 ## Goals for the project
 *Problem*: Many college students have limited kitchen resources, limited cooking skills, limited time, limited access to grocery stores, and no access to creative recipes that respect these constraints. As a result, college students spend money to eat out, or eat non-healthy foods at fast food places or through vending machines.
@@ -135,7 +155,112 @@ Survey technical skill sets beforehand; address any challenges that cannot be ov
 
 Have a larger buffer in areas of high risk and high importance. Document any rising risks and maintain flexibility with resource reallocation.
 
-### Milestone 1 Updated Screenshots
+## User Guide
+
+#### Landing Page
+
+This is the landing page where all users will first see. In the top left corner you can create an account or sign in. You can also access the all recipes page below.
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-landing-page.png" />
+</div>
+
+#### All Recipes Page
+
+Here you can find all the recipes created by the UH community. Oon the left you can filter based on food type, appliances, cost, and preparation time. Click on the recipes to access the full instructions or click the heart to favorite it for later. You can aso search for a specific recipe at the top or add your own recipe.
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-all-recipes-page.png" />
+</div>
+
+#### All Vendors Page
+
+The vendors page shows all the local vendors available for you to purchase ingredients from. Clicking the card for the vendor will lead you to the individual vendor page.
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-all-vendors-page.png" />
+</div>
+
+
+#### Individual Vendor Page
+
+In this page you can find the the opening hours and groceries that this vendor sells wiht their prices and availability.
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-individual-vendor-page.png" />
+</div>
+
+#### About Page
+
+The about page includes information about how this project came to be and it's purpose.
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-about-page.png" />
+</div>
+
+#### Favorites Page
+
+In the favorites page you can see all the recipes you have favorited for later.
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-favorites-page.png" />
+</div>
+
+#### Profile Page
+
+The profile page is where you can see your personal data as well as edit your profile.
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-profile-page.png" />
+</div>
+
+## Developer Guide
+
+### Installation
+Download and install PostgreSQL [here](https://www.postgresql.org/download/).
+
+Then create a database using the command,
+<pre>$ createdb rainbowrecipes</pre>
+
+### Cloning the Repository
+Clone the repository
+<pre>$ git clone https://github.com/rainbow-recipes/rainbow-recipes.git</pre>
+
+After cloning install the necessary dependencies
+<pre>
+$ cd rainbow-recipes
+$ npm install
+</pre>
+
+### Linking to your database
+Make a copy of the `sample.env` file and rename it to `.env`, then set the database URL to point to the database you made in the installation step.
+
+<pre>
+DATABASE_URL="postgresql://username:password@localhost:5432/rainbowrecipes"
+</pre>
+
+Change your datasource in `/prisma/schema.prisma` to use the right database url
+<pre>
+datasource db {
+  provider = "postgresql"
+  // for local development
+  url      = env("DATABASE_URL")
+  // for Vercel
+  // url       = env("POSTGRES_PRISMA_URL")
+  // directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+</pre>
+
+### Running Locally
+To run the webpage locally,
+<pre>$ npm run dev</pre>
+
+The webpage will ran at [http://localhost:3000](http://localhost:3000)
+
+
+## Milestone 1 
+
+### Updated Screenshots
 
 ##### Guest Landing Page
 
@@ -198,5 +323,54 @@ Have a larger buffer in areas of high risk and high importance. Document any ris
 ### Milestone 1 Project Page
 [Milestone 1](https://github.com/orgs/rainbow-recipes/projects/1)
 
+## Milestone 2 
+
+### Updated Screenshots
+
+#### About Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-about-page.png" />
+</div>
+
+#### All Vendors Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-all-vendors-page.png" />
+</div>
+
+#### Edit Recipe Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-edit-recipe.png" />
+</div>
+
+#### Detailed Recipe Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-detailed-recipe-page.png" />
+</div>
+
+#### Profile Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-profile-page.png" />
+</div>
+
+#### Individual Vendor Page
+
+<div style="box-shadow: 0px 0px 20px gray;">
+  <img src="/images/m2/m2-individual-vendor-page.png" />
+</div>
+
+
+
 ### Milestone 2 Project Page
 [Milestone 2](https://github.com/orgs/rainbow-recipes/projects/6)
+
+## Milestone 3
+
+### Updated Screenshots
+
+### Milestone 3 Project Page
+[Milestone 3](https://github.com/orgs/rainbow-recipes/projects/7)
