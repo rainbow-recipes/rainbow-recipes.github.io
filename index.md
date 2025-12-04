@@ -7,26 +7,31 @@
 ---
 
 ## Table of Contents
-- [GitHub Organization](#GitHub-Organization)
+- [GitHub Organization](#rainbow-recipes-github-organization)
+- [The Team](#the-team)
 - [Deployment](#deployment)
-- [Overview/Goals](#goals-for-the-project)
-- [Mockup Pages](#mockup-page-ideas)
-- [Use Case Ideas](#use-case-ideas)
-- [Beyond the Basics](#beyond-the-basics)
-- [Risk and Mitigations](#risks-and-mitigations)
+- [Project Overview](#project-overview)
+  - [Mockup Pages](#mockup-pages)
+  - [Use Case](#use-cases)
+  - [Beyond the Basics](#beyond-the-basics)
+  - [Risks and Mitigations](#risks-and-mitigations)
+  - [Entity Relationship Design](#entity-relationship-design)
 - [User Guide](#user-guide)
 - [Developer Guide](#developer-guide)
 - [Milestone 1](#milestone-1)
 - [Milestone 2](#milestone-2)
+- [Milestone 3](#milestone-3)
 
 ---
 
 ## Rainbow Recipes GitHub Organization
 [Rainbow Recipes](https://github.com/rainbow-recipes)
 
-## Team Members
+## The Team
 
-[Rainbow Recipes Team Contract](https://docs.google.com/document/d/1ii8JpiN7N2ggNPNK966_UyXlzq3T6nzf9zWfuArA9YU/edit?usp=sharing)
+[Ievgen Borovenskyi](https://github.com/ievgen-maker) • [Jasmine Chan](https://github.com/jasmineyschan) • [Tylor Nadamoto Beller](https://github.com/tylornb) • [Megan Wong](https://github.com/mewong21)
+
+:page_with_curl: [Rainbow Recipes Team Contract](https://docs.google.com/document/d/1ii8JpiN7N2ggNPNK966_UyXlzq3T6nzf9zWfuArA9YU/edit?usp=sharing)
 
 ## Deployment
 Deployed Site: [https://rainbow-recipes.vercel.app/](https://rainbow-recipes.vercel.app/)
@@ -35,10 +40,10 @@ Deployed Site: [https://rainbow-recipes.vercel.app/](https://rainbow-recipes.ver
 
 ---
 
-## Project Goals
-College students often have limited kitchen supplies and may lack basic cooking skills. With busy school schedules and part-time work, they have little time to not only learn and prepare meals, but to go out and buy groceries. As a result, it's easy to fall into the habit of eating out or even forgetting to eat. 
+## Project Overview
+*Problem*: College students often have limited kitchen supplies and may lack basic cooking skills. With busy school schedules and part-time work, they have little time to not only learn and prepare meals, but to go out and buy groceries. As a result, it's easy to fall into the habit of eating out or even forgetting to eat. 
 
-Rainbow Recipes aims to solve this issue, targeting students at UH Mānoa, by providing a system that students can use to learn or share quick, simple, and easy to prepare recipes:
+*Solution*: Rainbow Recipes aims to solve this issue, targeting students at UH Mānoa, by providing a system that students can use to learn or share quick, simple, and easy to prepare recipes:
 * Uses minimal kitchen facilities and supplies.
 * Ingredients are available within walking distance of UH.
 * Suits local taste.
@@ -238,7 +243,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ## Milestone 1 
 
-[Milestone 1 Project Page](https://github.com/orgs/rainbow-recipes/projects/1)
+:round_pushpin: [Milestone 1 Project Page](https://github.com/orgs/rainbow-recipes/projects/1)
 
 **Guest Landing Page**
 
@@ -282,7 +287,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ## Milestone 2 
 
-[Milestone 2 Project Page](https://github.com/orgs/rainbow-recipes/projects/6)
+:round_pushpin: [Milestone 2 Project Page](https://github.com/orgs/rainbow-recipes/projects/6)
 
 **About Page**
 
@@ -290,7 +295,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 **Vendors Page**
 
-<img src="/images/m2/m2-all-vendors-page.png" />
+<img src="/images/m2/m2-vendors-page.png" />
 
 **Edit Recipe Page**
 
@@ -308,6 +313,8 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 <img src="/images/m2/m2-vendor-store-page.png" />
 
+---
+
 ## Milestone 3
 
-[Milestone 3 Project Page](https://github.com/orgs/rainbow-recipes/projects/7)
+:round_pushpin: [Milestone 3 Project Page](https://github.com/orgs/rainbow-recipes/projects/7)
