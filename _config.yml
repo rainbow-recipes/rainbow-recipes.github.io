@@ -1,5 +1,9 @@
 title: Rainbow Recipes
+description: Quick and easy recipes made for UH Mānoa students, by UH Mānoa students.
+show_downloads: true
 theme: jekyll-theme-cayman
 github:
   is_project_page: true
   repository_url: https://github.com/rainbow-recipes/rainbow-recipes
+  zip_url: https://github.com/rainbow-recipes/rainbow-recipes/archive/refs/heads/main.zip
+  tar_url: https://github.com/rainbow-recipes/rainbow-recipes/archive/refs/heads/main.tar.gz
