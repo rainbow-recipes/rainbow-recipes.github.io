@@ -31,7 +31,7 @@
 
 [Ievgen Borovenskyi](https://github.com/ievgen-maker) • [Jasmine Chan](https://github.com/jasmineyschan) • [Tylor Nadamoto Beller](https://github.com/tylornb) • [Megan Wong](https://github.com/mewong21)
 
-:page_with_curl: [Rainbow Recipes Team Contract](https://docs.google.com/document/d/1ii8JpiN7N2ggNPNK966_UyXlzq3T6nzf9zWfuArA9YU/edit?usp=sharing)
+📃 [Rainbow Recipes Team Contract](https://docs.google.com/document/d/1ii8JpiN7N2ggNPNK966_UyXlzq3T6nzf9zWfuArA9YU/edit?usp=sharing)
 
 ## Deployment
 Deployed Site: [https://rainbow-recipes.vercel.app/](https://rainbow-recipes.vercel.app/)
@@ -243,7 +243,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ## Milestone 1 
 
-:round_pushpin: [Milestone 1 Project Page](https://github.com/orgs/rainbow-recipes/projects/1)
+📍 [Milestone 1 Project Page](https://github.com/orgs/rainbow-recipes/projects/1)
 
 **Guest Landing Page**
 
@@ -287,7 +287,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ## Milestone 2 
 
-:round_pushpin: [Milestone 2 Project Page](https://github.com/orgs/rainbow-recipes/projects/6)
+📍 [Milestone 2 Project Page](https://github.com/orgs/rainbow-recipes/projects/6)
 
 **About Page**
 
@@ -317,4 +317,4 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ## Milestone 3
 
-:round_pushpin: [Milestone 3 Project Page](https://github.com/orgs/rainbow-recipes/projects/7)
+📍 [Milestone 3 Project Page](https://github.com/orgs/rainbow-recipes/projects/7)
