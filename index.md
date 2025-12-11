@@ -21,6 +21,7 @@
 - [Milestone 1](#milestone-1)
 - [Milestone 2](#milestone-2)
 - [Milestone 3](#milestone-3)
+- [Community Feedback](#community-feedback)
 
 ---
 
@@ -156,7 +157,7 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 This is the landing page that all users see first. In the top left corner you can create an account or sign in. Prospective vendors may access the Vendor Sign Up page to fill out an application to be a vendor. In the navigation you can also access the Recipes page, Vendors page, and About page, as well as view different recipe categories.
 
-<img src="/images/m2/m2-landing-page.png" />
+<img src="/images/m3/m3-landing-page.png" />
 
 #### Recipes Page
 
@@ -175,6 +176,12 @@ The Vendors page shows all the local vendors available for you to purchase ingre
 In this page you can find the the opening hours and groceries that this vendor sells wiht their prices and availability.
 
 <img src="/images/m2/m2-vendor-store-page.png" />
+
+#### Vendor Map Page
+
+This page shows all vendors in your area as well as their opening hours.
+
+<img src="/images/m3/m3-vendor-map-page.png" />
 
 #### About Page
 
@@ -318,3 +325,53 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 ## Milestone 3
 
 📍 [Milestone 3 Project Page](https://github.com/orgs/rainbow-recipes/projects/7)
+
+**I'm Feeling Lucky Page**
+
+<img src="/images/m3/m3-lucky-button.png" />
+<img src="/images/m3/m3-lucky-page.png" />
+
+**Success Messages**
+
+<img src="/images/m3/m3-add-success.png" />
+<img src="/images/m3/m3-edit-success.png" />
+
+**Updated Detailed Recipe Page with Reviews**
+
+<img src="/images/m3/m3-detailed-recipe-page.png" />
+<img src="/images/m3/m3-detailed-recipe-page-2.png" />
+
+**Admin Database Dashboard**
+
+<img src="/images/m3/m3-admin-database-page.png" />
+
+**Vendor Map Page**
+
+<img src="/images/m3/m3-vendor-map-page.png" />
+
+## Community Feedback
+
+**Overall Experience**
+
+Feedback was mostly positive, users found the site easy to navigate, visually appealing, and helpful for discovering recipes. Users highlighted the layout and aesthetic as major strengths.
+
+**Reported Issues & Bugs**
+
+* The “I’m Feeling Lucky!” button often returned the same recipe repeatedly unless the page was manually refreshed.
+
+* The Recipes and Categories tabs were noted by some as feeling redundant or confusing.
+
+* One tester experienced recipe and vendor load failures during their session.
+
+* Minor logical input validation issues were spotted in the signup form (e.g., allowing non-alphanumeric characters in name/email fields).
+
+**Suggestions for Improvement**
+
+* Fix the “I’m Feeling Lucky!” randomization so it truly selects a different recipe each time.
+
+* Adjust signup field validation to prevent invalid character strings.
+
+* Clarify or streamline the Categories vs. Recipes navigation to reduce confusion.
+
+* Ensure the footer and layout resize properly on smaller screens.
+
