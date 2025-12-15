@@ -7,9 +7,10 @@
 ---
 
 ## Table of Contents
-- [GitHub Organization](#rainbow-recipes-github-organization)
-- [The Team](#the-team)
-- [Deployment](#deployment)
+- [About](#about)
+  - [GitHub Organization](#rainbow-recipes-github-organization)
+  - [The Team](#the-team)
+  - [Deployment](#deployment)
 - [Project Overview](#project-overview)
   - [Mockup Pages](#mockup-pages)
   - [Use Case](#use-cases)
@@ -27,20 +28,18 @@
 
 ---
 
-## Rainbow Recipes GitHub Organization
+## About
+
+#### Rainbow Recipes GitHub Organization
 [Rainbow Recipes](https://github.com/rainbow-recipes)
 
----
-
-## The Team
+#### The Team
 
 [Ievgen Borovenskyi](https://github.com/ievgen-maker) • [Jasmine Chan](https://github.com/jasmineyschan) • [Tylor Nadamoto Beller](https://github.com/tylornb) • [Megan Wong](https://github.com/mewong21)
 
 📃 [Rainbow Recipes Team Contract](https://docs.google.com/document/d/1ii8JpiN7N2ggNPNK966_UyXlzq3T6nzf9zWfuArA9YU/edit?usp=sharing)
 
----
-
-## Deployment
+#### Deployment
 Deployed Site: [https://rainbow-recipes.vercel.app/](https://rainbow-recipes.vercel.app/)
 
 [![ci-rainbow-recipes](https://github.com/rainbow-recipes/rainbow-recipes/actions/workflows/ci.yml/badge.svg)](https://github.com/rainbow-recipes/rainbow-recipes/actions/workflows/ci.yml)
@@ -258,7 +257,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 #### 📈 [Effort Estimation Report](https://docs.google.com/spreadsheets/d/176-2Y9b_qxuzZ-wf2xiMkMLbw2WfZeajO1dU9AY3eFM/edit?usp=sharing)
 
----
+<br />
 
 #### Milestone 1 
 
@@ -302,7 +301,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 <img src="/images/m1/m1-admin-page.png" />
 
----
+<br />
 
 #### Milestone 2 
 
@@ -332,7 +331,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 <img src="/images/m2/m2-vendor-store-page.png" />
 
----
+<br />
 
 #### Milestone 3
 
@@ -360,6 +359,8 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 **Vendor Map Page**
 
 <img src="/images/m3/m3-vendor-map-page.png" />
+
+---
 
 ## Community Feedback
 
