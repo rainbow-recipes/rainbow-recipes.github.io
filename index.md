@@ -255,9 +255,9 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ## Progression
 
-#### 📈 [Effort Estimation Report](https://docs.google.com/spreadsheets/d/176-2Y9b_qxuzZ-wf2xiMkMLbw2WfZeajO1dU9AY3eFM/edit?usp=sharing)
+#### Effort Estimation
+📈 [Effort Estimation Report](https://docs.google.com/spreadsheets/d/176-2Y9b_qxuzZ-wf2xiMkMLbw2WfZeajO1dU9AY3eFM/edit?usp=sharing)
 
-<br />
 
 #### Milestone 1 
 
@@ -301,7 +301,6 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 <img src="/images/m1/m1-admin-page.png" />
 
-<br />
 
 #### Milestone 2 
 
@@ -331,7 +330,6 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 <img src="/images/m2/m2-vendor-store-page.png" />
 
-<br />
 
 #### Milestone 3
 
