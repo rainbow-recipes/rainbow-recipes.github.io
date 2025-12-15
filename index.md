@@ -18,9 +18,11 @@
   - [Entity Relationship Design](#entity-relationship-design)
 - [User Guide](#user-guide)
 - [Developer Guide](#developer-guide)
-- [Milestone 1](#milestone-1)
-- [Milestone 2](#milestone-2)
-- [Milestone 3](#milestone-3)
+- [Progression](#progression)
+  - [Effort Estimation](#-effort-estimation-report)
+  - [Milestone 1](#milestone-1)
+  - [Milestone 2](#milestone-2)
+  - [Milestone 3](#milestone-3)
 - [Community Feedback](#community-feedback)
 
 ---
@@ -28,11 +30,15 @@
 ## Rainbow Recipes GitHub Organization
 [Rainbow Recipes](https://github.com/rainbow-recipes)
 
+---
+
 ## The Team
 
 [Ievgen Borovenskyi](https://github.com/ievgen-maker) • [Jasmine Chan](https://github.com/jasmineyschan) • [Tylor Nadamoto Beller](https://github.com/tylornb) • [Megan Wong](https://github.com/mewong21)
 
 📃 [Rainbow Recipes Team Contract](https://docs.google.com/document/d/1ii8JpiN7N2ggNPNK966_UyXlzq3T6nzf9zWfuArA9YU/edit?usp=sharing)
+
+---
 
 ## Deployment
 Deployed Site: [https://rainbow-recipes.vercel.app/](https://rainbow-recipes.vercel.app/)
@@ -51,13 +57,13 @@ Deployed Site: [https://rainbow-recipes.vercel.app/](https://rainbow-recipes.ver
 * Can be filtered via dietary restrictions (gluten-free, vegan, etc).
 * Has an estimated cost per serving, estimated number of servings, and estimated prep-time.
 
-### Approach
+#### Approach
 There are three roles in this system: students, vendors, and admins:
 * Students can both search for and contribute recipes.
 * Vendors (local grocery stores and/or farmer’s markets) can login and establish a profile including their location and hours. 
 * Admins can edit all content in the system, remove inappropriate content, and establish users as having the vendor role.
 
-### Mockup Pages
+#### Mockup Pages
 
 **Guest Landing Page**
 
@@ -105,7 +111,7 @@ Logged in users will be able to add their own recipes through a form. They will 
 
 <img src="/images/mockup/add-recipes-page.png" />
 
-### Use Cases
+#### Use Cases
 
 **User**
 
@@ -119,11 +125,11 @@ Logged in users will be able to add their own recipes through a form. They will 
 
 <img src="/images/usecase/usecase-vendor.png" />
 
-### Entity Relationship Design
+#### Entity Relationship Design
 
 <img src="/images/erd.png" />
 
-### Beyond the Basics
+#### Beyond the Basics
 After implementing the basic functionality, here are ideas for more advanced features:
 * Maps for locating vendors.
 * Based upon open hours for vendors, indicate which ingredients can be bought right now.
@@ -132,7 +138,7 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Notification system for vendors when new items are posted in recipes so they can update their listing to indicate whether they stock it or not.
 * Notification system when price for a recipe drops substantially (i.e. a vendor puts an item on sale.)
 
-### Risks and Mitigations
+#### Risks and Mitigations
 
 * **Poor Communication**:
   Meeting twice a week with team members to discuss the project and progress of tasks. Discussing any concerns, disagreements, or new ideas.
@@ -205,13 +211,13 @@ The Profile page is where you can see your personal data as well as edit your pr
 
 ## Developer Guide
 
-### Installation
+#### Installation
 Download and install PostgreSQL [here](https://www.postgresql.org/download/).
 
 Then create a database using the command,
 <pre>$ createdb rainbowrecipes</pre>
 
-### Cloning the Repository
+#### Cloning the Repository
 Clone the repository
 <pre>$ git clone https://github.com/rainbow-recipes/rainbow-recipes.git</pre>
 
@@ -221,7 +227,7 @@ $ cd rainbow-recipes
 $ npm install
 </pre>
 
-### Linking to your database
+#### Linking to your database
 Make a copy of the `sample.env` file and rename it to `.env`, then set the database URL to point to the database you made in the installation step.
 
 <pre>
@@ -240,7 +246,7 @@ datasource db {
 }
 </pre>
 
-### Running Locally
+#### Running Locally
 To run the webpage locally,
 <pre>$ npm run dev</pre>
 
@@ -248,7 +254,13 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Milestone 1 
+## Progression
+
+#### 📈 [Effort Estimation Report](https://docs.google.com/spreadsheets/d/176-2Y9b_qxuzZ-wf2xiMkMLbw2WfZeajO1dU9AY3eFM/edit?usp=sharing)
+
+---
+
+#### Milestone 1 
 
 📍 [Milestone 1 Project Page](https://github.com/orgs/rainbow-recipes/projects/1)
 
@@ -292,7 +304,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Milestone 2 
+#### Milestone 2 
 
 📍 [Milestone 2 Project Page](https://github.com/orgs/rainbow-recipes/projects/6)
 
@@ -322,7 +334,7 @@ The webpage will ran at [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Milestone 3
+#### Milestone 3
 
 📍 [Milestone 3 Project Page](https://github.com/orgs/rainbow-recipes/projects/7)
 
